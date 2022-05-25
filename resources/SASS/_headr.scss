@@ -1,3 +1,10 @@
+%HStiles{
+    font-family: $smooch;
+    font-size: 2.5rem;
+    font-weight: 400;
+    margin: 0;
+}
+
 header{
     text-align: center;
     background-color: $all-black;
@@ -5,18 +12,13 @@ header{
     height: 15.625rem;
 
     h1{
-        font-family: $smooch;
+        @extend %HStiles;
         color: $brc-yellow;
-        font-size: 2.5rem;
-        font-weight: 400;
-        margin: 0;
+        
     }
 
     h2{
-        font-family: $smooch;
+        @extend %HStiles;
         color: $bright-red;
-        font-size: 2.5rem;
-        font-weight: 400;
-        margin: 0;
     }
 }
