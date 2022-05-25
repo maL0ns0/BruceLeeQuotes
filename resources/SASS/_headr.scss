@@ -1,0 +1,22 @@
+header{
+    text-align: center;
+    background-color: $all-black;
+    opacity: 0.90;
+    height: 15.625rem;
+
+    h1{
+        font-family: $smooch;
+        color: $bruce-yellow;
+        font-size: 2.5rem;
+        font-weight: 400;
+        margin: 0;
+    }
+
+    h2{
+        font-family: $smooch;
+        color: $bright-red;
+        font-size: 2.5rem;
+        font-weight: 400;
+        margin: 0;
+    }
+}
