@@ -15,6 +15,7 @@ body {
   line-height: 1.6;
   overflow-x: hidden;
   font-family: "Macondo", cursive;
+  background-color: hsl(0deg, 0%, 0%);
   background-image: url("../img/bruceLee.jpg");
   background-repeat: no-repeat;
   background-position: center;
@@ -22,21 +23,30 @@ body {
   height: 100vh;
   color: white;
 }
-body main {
+
+header {
   text-align: center;
+  background-color: hsl(0deg, 0%, 0%);
+  opacity: 0.9;
+  height: 15.625rem;
 }
-body main h1 {
+header h1 {
   font-family: "Smooch", cursive;
   color: hsl(59deg, 89%, 44%);
   font-size: 2.5rem;
   font-weight: 400;
+  margin: 0;
+}
+header h2 {
+  font-family: "Smooch", cursive;
+  color: hsl(0deg, 100%, 50%);
+  font-size: 2.5rem;
+  font-weight: 400;
+  margin: 0;
 }
 
-/*
-    font-family: 'Macondo', cursive;
-    font-family: 'Smooch', cursive;
-*/
 .container {
+  position: relative;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -47,22 +57,29 @@ body main h1 {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  border: red solid 1px;
-  background-color: black;
+  background-color: hsl(0deg, 0%, 0%);
+  row-gap: 65px;
+  opacity: 0.9;
+  height: 100vh;
+  margin: 0 auto;
+  padding: 0.3125rem;
+  font-size: 1.125rem;
+  text-align: center;
+}
+.container .quote-area {
+  height: 10rem;
+  max-width: 43.75rem;
 }
 .container a {
   text-decoration: none;
-  color: black;
+  color: hsl(0deg, 0%, 0%);
   background-color: hsl(59deg, 89%, 44%);
   width: 35%;
-  border-radius: 5px;
-  -webkit-transition: background-color 0.3s ease-in-out;
-  transition: background-color 0.3s ease-in-out;
+  border-radius: 0.3125rem;
+  -webkit-transition: background-color 0.4s ease-in-out;
+  transition: background-color 0.4s ease-in-out;
 }
 .container a:hover {
-  background-color: hsl(59deg, 85%, 33%);
+  background-color: #747207;
   cursor: pointer;
 }/*# sourceMappingURL=style.css.map */

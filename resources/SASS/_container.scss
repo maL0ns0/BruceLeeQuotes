@@ -14,21 +14,23 @@
 
     .quote-area{
         height: 10rem;
+        max-width: 43.75rem;
     }
     
 
     a{
         text-decoration: none;
         color: $all-black;
-        background-color: $bruce-yellow;
+        background-color: $brc-yellow;
         width: 35%;
         border-radius: 0.3125rem;
         transition: background-color 0.4s ease-in-out;
     
         &:hover{
-            background-color: darken($bruce-yellow, 20%);
+            background-color: darken($brc-yellow, 20%);
             cursor: pointer;
         }
     }
 }
+
 

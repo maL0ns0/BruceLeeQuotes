@@ -22,9 +22,18 @@ let leeCuotes = [
 "You must be shapeless, formless, like water. When you pour water in a cup, it becomes the cup. When you pour water in a bottle, it becomes the bottle. When you pour water in a teapot, it becomes the teapot. Water can drip and it can crash. Become like water my friend."
 ]
 
+
+
 function getRandomCuote(){
     let inx = Math.floor( Math.random() * leeCuotes.length)
     return leeCuotes[inx]
 }
 
-console.log( getRandomCuote() )
+let btnQuote = document.querySelector('#btnQuote')
+let qtPrh = document.querySelector('#quote-prh')
+
+btnQuote.addEventListener('click', () => {
+    qtPrh.innerHTML = getRandomCuote()
+})
+
+
